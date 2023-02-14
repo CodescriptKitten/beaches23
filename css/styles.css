@@ -49,13 +49,17 @@ table {
 }
 
 nav {
-    display: inline-block;
+    margin: 0 auto;
 }
 
 nav ul {
-    display: inline-block;
     text-align: center;
     list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
 }
 
 nav a:link {
@@ -75,7 +79,7 @@ nav a:visited {
 }
 
 p {
-    
+
 }
 
 footer {
