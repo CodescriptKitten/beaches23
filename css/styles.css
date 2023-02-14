@@ -4,14 +4,22 @@
 
 Colors:
 
-
+#025CAA - Deep Sky Blue
+#74B8E8 - Sky Blue
+#159CAF - Dark Reef Aqua
+#0ABFBF - Shallow Reef Aqua
+#E0CDAF - Wet San Beige
 
 
 Fonts:
 
-
+font-family: 'Akronim', cursive; - display
+font-family: 'Alegreya', serif; - header
+font-family: 'Arima', cursive; - writing
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Alegreya:ital,wght@0,400;0,700;1,400;1,700&family=Arima:wght@200;400;700&display=swap');
 
 *, *:active {
     margin: 0;
@@ -24,19 +32,25 @@ body {
 }
 
 h1 {
-
+    font-family: 'Akronim', cursive;
 }
 
 h2 {
-
+    font-family: 'Alegreya', serif;
 }
 
 blockquote {
-
+    font-family: 'Alegreya', serif;
 }
 
 table {
 
+}
+
+nav ul {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
 }
 
 nav a:link {
