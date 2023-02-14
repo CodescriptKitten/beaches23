@@ -33,6 +33,7 @@ body {
 
 h1 {
     font-family: 'Akronim', cursive;
+    text-align: center;
 }
 
 h2 {
@@ -45,6 +46,10 @@ blockquote {
 
 table {
 
+}
+
+nav {
+    display: inline-block;
 }
 
 nav ul {
@@ -67,4 +72,16 @@ nav a:active {
 
 nav a:visited {
     
+}
+
+p {
+    
+}
+
+footer {
+
+}
+
+footer p{
+    text-align: center
 }
