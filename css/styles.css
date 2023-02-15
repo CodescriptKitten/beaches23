@@ -91,7 +91,12 @@ p {
 }
 
 footer {
-    background-image: linear-gradient(#159CAF99, #025CAAaa)
+    background-image: linear-gradient(#159CAF99, #025caabb)
+}
+
+footer nav {
+    margin: 0 auto;
+    background-image: linear-gradient(#159CAF99, #025caaaa);
 }
 
 footer p{
