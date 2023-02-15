@@ -44,6 +44,15 @@ h2 {
 
 blockquote {
     font-family: 'Alegreya', serif;
+    padding: .5em 1em;
+    font-size: 2em;
+}
+
+img {
+    padding: 0.5em 2em;
+    width: 400px;
+    height: 300px;
+    float: left;
 }
 
 table {
@@ -52,7 +61,7 @@ table {
 
 nav {
     margin: 0 auto;
-    background-image: linear-gradient(#E0CDAF, #0abfbf83);
+    background-image: linear-gradient(#E0CDAF, #0abfbf55);
 }
 
 nav ul {
@@ -83,7 +92,8 @@ nav a:visited {
 }
 
 main {
-    background-image: linear-gradient(#0ABFBF44, #159CAF99);
+    background-image: linear-gradient(#0abfbf55, #159CAFcc);
+    height: 400px;
 }
 
 p {
@@ -91,14 +101,14 @@ p {
 }
 
 footer {
-    background-image: linear-gradient(#159CAF99, #025caabb)
+    background-image: linear-gradient(#025CAAaa, #025caadd);
 }
 
-footer nav {
+.footNav nav {
     margin: 0 auto;
-    background-image: linear-gradient(#159CAF99, #025caaaa);
+    background-image: linear-gradient(#159CAFcc, #025CAAaa);
 }
 
 footer p{
-    text-align: center
+    text-align: center;
 }
