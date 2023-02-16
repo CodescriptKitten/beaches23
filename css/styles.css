@@ -87,7 +87,7 @@ nav ul li {
 }
 
 nav a:link {
-
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -119,6 +119,22 @@ footer {
 #footNav {
     margin: 0 auto;
     background-image: linear-gradient(#159CAFcc, #025CAAaa);
+}
+
+#footNav a:link {
+    text-decoration: none;
+}
+
+#footNav a:hover {
+    
+}
+
+#footNav a:active {
+    
+}
+
+#footNav a:visited {
+    
 }
 
 footer p{
