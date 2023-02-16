@@ -31,11 +31,15 @@ body {
     background-color:#E0CDAF;
 }
 
-h1 {
+header {
+    height: 20%
+}
+
+header h1 {
     font-family: 'Akronim', cursive;
     text-align: center;
-    margin: 1.2em;
-    font-size: 2em;
+    margin: 1em;
+    font-size: 3em;
 }
 
 h2 {
@@ -61,9 +65,10 @@ table {
 
 nav {
     margin: 0 auto;
+    height: 5%
 }
 
-#headNav nav {
+#headNav {
     background-image: linear-gradient(#E0CDAF, #0abfbf55);
 }
 
@@ -96,7 +101,7 @@ nav a:visited {
 
 main {
     background-image: linear-gradient(#0abfbf55, #159CAFcc);
-    height: 400px;
+    height: 70%;
 }
 
 p {
@@ -107,7 +112,7 @@ footer {
     background-image: linear-gradient(#025CAAaa, #025caadd);
 }
 
-#footNav nav {
+#footNav {
     margin: 0 auto;
     background-image: linear-gradient(#159CAFcc, #025CAAaa);
 }
