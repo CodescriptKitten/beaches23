@@ -38,7 +38,7 @@ header {
 header h1 {
     font-family: 'Akronim', cursive;
     text-align: center;
-    margin: 1em;
+    margin: 1em 0;
     font-size: 3em;
 }
 
@@ -65,7 +65,7 @@ table {
 
 nav {
     margin: 0 auto;
-    height: 5%
+    height: 5%;
 }
 
 #headNav {
@@ -81,6 +81,9 @@ nav ul li {
     display: inline-block;
     text-align: center;
     text-decoration: none;
+    padding: 0 2em;
+    font-size: 2em;
+    font-family: 'Alegreya', serif;
 }
 
 nav a:link {
@@ -110,6 +113,7 @@ p {
 
 footer {
     background-image: linear-gradient(#025CAAaa, #025caadd);
+    height: 10%;
 }
 
 #footNav {
