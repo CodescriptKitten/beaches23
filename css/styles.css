@@ -42,15 +42,19 @@ header {
 
 header h1 {
     font-family: 'Akronim', cursive;
-    color: linear-gradient(#555, #495C49);
+    background:linear-gradient(#555, #495C49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
-    margin: 2em 0;
+    margin: 2em 9em;
     font-size: 4em;
     border: dotted #666;
 }
 
 header h1:nth-child(even) {
-    color: linear-gradient(#666, #5B735B);
+    background-image: linear-gradient(#666, #5B735B);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 h2 {
@@ -68,8 +72,8 @@ img {
     width: 400px;
     height: 300px;
     float: left;
-    border: thick #666;
-    border-radius: 40px;
+    border: solid #666;
+    border-radius: 5px;
 }
 
 table {
@@ -94,10 +98,9 @@ nav ul li {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    padding: 0 3em;
+    padding: 0 3.5em;
     font-size: 2em;
     font-family: 'Alegreya', serif;
-    background-color: #666;
 }
 
 nav a:link {
@@ -138,7 +141,8 @@ main {
 }
 
 p {
-    font-size: 2em
+    font-size: 2em;
+    font-family: 'Arima', cursive;
 }
 
 footer {
@@ -169,4 +173,5 @@ footer {
 
 footer p{
     text-align: center;
+    font-size: 1em;
 }
