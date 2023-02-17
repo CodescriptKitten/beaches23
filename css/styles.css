@@ -70,7 +70,7 @@ blockquote {
 }
 
 img {
-    padding: 0.5em 2em;
+    margin: 0.5em 2em;
     width: 400px;
     height: 300px;
     float: left;
