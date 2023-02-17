@@ -9,6 +9,11 @@ Colors:
 #159CAF - Dark Reef Aqua
 #0ABFBF - Shallow Reef Aqua
 #E0CDAF - Wet San Beige
+#666 - Devil Grey
+#777 - Lucky Grey
+#555 - Spam Grey
+#5B735B - Moss Devil Grey
+#495C49 - Moss Spam Grey
 
 
 Fonts:
@@ -32,14 +37,20 @@ body {
 }
 
 header {
-    height: 20%
+    height: 15%
 }
 
 header h1 {
     font-family: 'Akronim', cursive;
+    color: linear-gradient(#555, #495C49);
     text-align: center;
-    margin: 1em 0;
-    font-size: 3em;
+    margin: 2em 0;
+    font-size: 4em;
+    border: dotted #666;
+}
+
+header h1:nth-child(even) {
+    color: linear-gradient(#666, #5B735B);
 }
 
 h2 {
@@ -57,6 +68,8 @@ img {
     width: 400px;
     height: 300px;
     float: left;
+    border: thick #666;
+    border-radius: 40px;
 }
 
 table {
@@ -81,25 +94,42 @@ nav ul li {
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    padding: 0 2em;
+    padding: 0 3em;
     font-size: 2em;
     font-family: 'Alegreya', serif;
+    background-color: #666;
 }
 
 nav a:link {
     text-decoration: none;
+    border: solid #222;
+    border-radius: 3px;
+    background-color: #333;
+    color:white;
 }
 
 nav a:hover {
-    
+    text-decoration: none;
+    background-color: #888;
+    color: black;
+    border: solid #666;
+    border-radius: 3px;
 }
 
 nav a:active {
-    
+    text-decoration: none;
+    background-color: #888;
+    color: black;
+    border: solid #666;
+    border-radius: 3px;
 }
 
 nav a:visited {
-    
+    text-decoration: none;
+    background-color: #666;
+    color: black;
+    border: #444;
+    border-radius: 3px;
 }
 
 main {
@@ -108,7 +138,7 @@ main {
 }
 
 p {
-
+    font-size: 2em
 }
 
 footer {
